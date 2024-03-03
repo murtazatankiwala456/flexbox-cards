@@ -1,0 +1,27 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px 0;
+}
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  flex-basis: 200px;
+}
+.card img {
+  width: 100%;
+}
+button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .card {
+    flex-grow: 1;
+  }
+}
